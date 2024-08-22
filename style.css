@@ -59,6 +59,7 @@ h1.main-text {
 
 p.main-text {
     width: 85%;
+    margin: 5px;
 }
 
 button.main-text {
