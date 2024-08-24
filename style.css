@@ -9,12 +9,11 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    height: 380px;
+    height: 430px;
     padding-left: 140px; /* Сократить запись padding*/
     padding-right: 140px;
-    padding-bottom: 100px; /* Не робит*/
     padding-top: 10px;
-    gap: 80px;
+    gap: 90px;
     overflow: hidden;
 }
 
@@ -22,10 +21,11 @@
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    height: 380px;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-bottom: 60px;
+    height: 400px;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-bottom: 70px;
+    padding-top: 40px;
 }
 
 .section-2 > * {
@@ -34,14 +34,24 @@
 
 .section-2 .cards {
     flex: 3 1 0;
-    gap: 30px;
+    gap: 45px;
     align-items: center;
     justify-content: center;
 }
 
+.card {
+    flex: 0 1 150px;
+}
+
 .card img {
     outline: 2px solid #3882F6;
-    border-radius: 5px;
+    height: auto;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card-description {
+    text-align: center;
 }
 
 .section-2 .title {
@@ -50,7 +60,7 @@
     color: 1F2937;
     flex: 1 1 0;
     justify-content: center;
-    align-items: center;
+   /* align-items: center;*/
 }
 
 .logo {
