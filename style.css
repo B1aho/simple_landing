@@ -1,4 +1,4 @@
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,9 +10,10 @@ body {
     display: flex;
     flex-direction: column;
     height: 380px;
-    padding-left: 140px;
+    padding-left: 140px; /* Сократить запись padding*/
     padding-right: 140px;
-    padding-bottom: 60px;
+    padding-bottom: 100px; /* Не робит*/
+    padding-top: 10px;
     gap: 80px;
     overflow: hidden;
 }
@@ -35,10 +36,12 @@ body {
     flex: 3 1 0;
     gap: 30px;
     align-items: center;
+    justify-content: center;
 }
 
-.section-2.cards > * {
-
+.card img {
+    outline: 2px solid #3882F6;
+    border-radius: 5px;
 }
 
 .section-2 .title {
@@ -80,6 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -92,7 +96,6 @@ h1.main-text {
 
 p.main-text {
     width: 85%;
-    margin: 5px;
 }
 
 button.main-text {
