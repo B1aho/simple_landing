@@ -209,3 +209,8 @@ button.main-text {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.author {
+    font-weight: 800;
+    text-align: right;
+}
