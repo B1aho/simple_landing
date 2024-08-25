@@ -1,8 +1,3 @@
-/*Сделать бади флекс контейнером и растянуть все одинаково, получится? Мб задать высоту только body. 
-footer попробовать html <footer> 
-
-Добавить html-элемент для подписи цитаты и обернуть их в контейнер
-*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,11 +5,20 @@ footer попробовать html <footer>
     font-family: Roboto, Inter, Impact, 'Arial Narrow Bold', sans-serif;
 }
 
+body {
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+    flex: 1;
+}
+
 .section-1 {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    height: 430px;
     padding-left: 140px; /* Сократить запись padding*/
     padding-right: 140px;
     padding-top: 10px;
@@ -26,17 +30,13 @@ footer попробовать html <footer>
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    height: 400px;
     padding-left: 190px;
     padding-right: 190px;
-    padding-bottom: 70px;
-    padding-top: 40px;
 }
 
 .section-3 {
     background-color: #E5E7EB;
     display: flex;
-    height: 400px;
     justify-content: center;
     align-items: center;
     padding-left: 190px;
@@ -45,7 +45,6 @@ footer попробовать html <footer>
 
 .section-4 {
     display: flex;
-    height: 400px;
     justify-content: center;
     align-items: center;
     padding-left: 150px;
@@ -61,6 +60,12 @@ footer попробовать html <footer>
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 10px;
+}
+
+.section-2 .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text h2 {
@@ -84,13 +89,13 @@ footer попробовать html <footer>
     padding: 10px 35px;
 }
 
-footer {
+.landing footer {
+    flex: 0.25 1 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    height: 80px;
 }
 
 .quote {
