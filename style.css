@@ -122,7 +122,7 @@ button.main-text {
 .sec-1-img {
     width: 488px;
     height: 310px;
-    box-shadow: 12px 12px rgba(179, 179, 255, 0.2);
+    box-shadow: 12px 12px 3px rgba(179, 179, 255, 0.2);
 }
 
 /* Section-2 styles: */
@@ -152,10 +152,11 @@ button.main-text {
 }
 
 .card img {
-    outline: 2px solid #3882F6;
-    height: auto;
-    width: 150px;
-    border-radius: 10px;
+    /*outline: 2px solid #3882F6;*/
+    height: 250px;
+    width: 200px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
 }
 
 .card-description {
