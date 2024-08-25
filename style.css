@@ -56,15 +56,32 @@ footer попробовать html <footer>
     display: flex;
     flex: 1;
     justify-content: space-around;
+    align-items: center;
     background-color: #3882F6;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-radius: 10px;
 }
 
 .text h2 {
     font-size: 28px;
     font-weight: 700;
     color: #F9FAF8;
+}
+
+.text p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.section-4 button {
+    border-radius: 6px;
+    height: fit-content;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    font-weight: 600;
+    padding: 10px 35px;
 }
 
 .quote {
