@@ -122,7 +122,7 @@ button.main-text {
 
 .sec-1-img {
     width: 488px;
-    height: 310px;
+    height: 300px;
     box-shadow: 12px 12px 3px rgba(179, 179, 255, 0.2);
 }
 
@@ -194,6 +194,12 @@ p.quote {
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 10px;
+    box-shadow: 4px 4px 3px rgba(0,0,0,0.28);
+    transition: all 0.3s ease-in-out;
+}
+
+.action-container:hover {
+    transform: scale(1.2, 1.2);
 }
 
 .text h2 {
