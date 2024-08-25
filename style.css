@@ -23,7 +23,7 @@ footer попробовать html <footer>
 }
 
 .section-2 {
-    background-color: #E5E7EB;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -31,6 +31,27 @@ footer попробовать html <footer>
     padding-right: 190px;
     padding-bottom: 70px;
     padding-top: 40px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+.quote {
+    flex: 1;
+}
+
+p.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: 1F2937;
 }
 
 .section-2 > * {
